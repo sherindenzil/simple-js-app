@@ -12,5 +12,25 @@ header {
 }
 
 .pokemon-list {
+  list-style: none;
   margin-left: 10px;
+}
+
+.my-class {
+  background-color: #e6e6e6; /* Green */
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  border: 12px solid black;
+}
+
+.my-class:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
 }
